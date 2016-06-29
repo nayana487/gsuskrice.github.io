@@ -9,9 +9,7 @@
 title: Did you commit today?
 email: cphillips918@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A place to practice website design, blog some things, and keep you up to date on projects you can use to make sure you're commiting everyday!
 baseurl: "/jekyll"
 url: "http://gsuskrice.github.io"  # the base hostname & protocol for your site
 twitter_username: spiffcs
