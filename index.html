@@ -10,9 +10,11 @@ layout: default
     <h1 class="page-heading">Fork these cool projects and get coding!</h1>
     <div class='project-container'>
         {% for project in site.data.projects %}
-            <div class='project'>
-                <img class='project-img' src="{{project.img}}">
-            </div>
+            <a href='{{project.github}}'>
+                <div class='project'>
+                    <img class='project-img' src='{{project.img}}'>
+                </div>
+            </a>
         {% endfor %}
     </div>
 </div>
