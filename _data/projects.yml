@@ -1,35 +1,35 @@
-- name: Do this Thing
-  github: Funny Git Hub
-  img: http://static1.squarespace.com/static/522a22cbe4b04681b0bff826/t/55df6986e4b0db68de72ff24/1440704902698/Uber+-+Hack+Reactor+Remote+Beta.jpg
-
-- name: Do this Other Thing
-  github: Funnier github
+- name: CSS3 Animations
+  github: https://github.com/daneden/animate.css
   img: http://16102-presscdn-0-48.pagely.netdna-cdn.com/wp-content/uploads/2014/12/css3_2.jpg
 
-- name: Bang it Out
-  github: Weird github
+- name: ES6
+  github: https://github.com/bevacqua/es6
   img: http://jamesknelson.com/wp-content/uploads/2015/07/ES6-the-bits-youll-actually-use.png
 
-- name: Do this Thing
-  github: Funny Git Hub
+- name: Ruby on Rails
+  github: https://github.com/rails/rails
   img: http://blog.nukomeet.com/content/images/2015/11/How-To-Deploy-Ruby-On-Rails.jpg
 
-- name: Do this Other Thing
-  github: Funnier github
+- name: Word Press
+  github: https://github.com/WordPress/WordPress
   img: http://img.rldw.de/2015/05/wordpress-logo2.jpg
 
-- name: Bang it Out
-  github: Weird github
+- name: Uber
+  github: https://github.com/uber
+  img: http://static1.squarespace.com/static/522a22cbe4b04681b0bff826/t/55df6986e4b0db68de72ff24/1440704902698/Uber+-+Hack+Reactor+Remote+Beta.jpg
+
+- name: ios ECO System
+  github: https://github.com/vsouza/awesome-ios
   img: http://ionicframework.com/img/blog/ionic-lab-header.png
 
-- name: Do this Thing
-  github: Funny Git Hub
+- name: React-Js
+  github: https://github.com/facebook/react
   img: https://scotch.io/wp-content/uploads/2014/10/learning-react-getting-started.png
 
-- name: Do this Other Thing
-  github: Funnier github
+- name: Gulp JS
+  github: https://github.com/gulpjs/gulp
   img: https://scotch.io/wp-content/uploads/2014/11/automate-tasks-gulpjs.png
 
-- name: Bang it Out
-  github: Weird github
+- name: Node
+  github: https://github.com/nodejs/node
   img: https://supundharmarathne.files.wordpress.com/2014/08/restful-api-node-express-4-router.jpg
