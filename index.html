@@ -1,23 +1,22 @@
 ---
 layout: default
 ---
-<div class="page-heading">
-    <header class="intro-span">
-        <h1 class="title">Front-End on the Street Back-End in the Sheets</h1>
-    </header>
+<div class="intro-span">
+    <h1 class="title">Front-End on the Street Back-End in the Sheets</h1>
 </div>
-<div class="home">
-    <h1 class="page-heading">Fork these cool projects and get coding!</h1>
-    <div class='project-container'>
-        {% for project in site.data.projects %}
-            <a href='{{project.github}}'>
-                <div id='mario' class='project'>
-                    <img class='project-img' src='{{project.img}}'>
-                    <div class= 'flex-mask'>
-                        <h3 class='show'>{{project.name}}</h3>
-                    </div>
+<div class="page-heading">
+    <h1 class="page-heading-title">Fork these cool projects and get coding!</h1>
+</div>
+<div class='project-container'>
+    {% for project in site.data.projects %}
+        <a href='{{project.github}}'>
+            <div id='mario' class='project'>
+                <img class='project-img' src='{{project.img}}'>
+                <div class= 'flex-mask'>
+                    <h3 class='show'>{{project.name}}</h3>
                 </div>
-            </a>
-        {% endfor %}
-    </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
 </div>

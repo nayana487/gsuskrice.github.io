@@ -4,32 +4,29 @@
 @charset "utf-8";
 
 // Our variables
+
+//Element
+$base-line-height: 1.5;
+$background-color: #fdfdfd;
+$project-border: 1px solid white;
+$spacing-unit:     40px;
+
+//text
+$text-color:       #111;
+$brand-color:      #ffffff;
+$visiter-color:    #ffffff;
+$text-shadow:1px 1px 10px black;
+$hover-text-shadow: 4px 4px 20px black;
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 500;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-$text-shadow:1px 1px 10px black;
-$hover-text-shadow: 4px 4px 20px black;
-
-$spacing-unit:     40px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #ffffff;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-$project-border: 1px solid white;
 
 
 // Width of the content area
-$content-width:    1150px;
-
-$on-palm:          600px;
+$content-width:    1920px;
 $on-laptop:        800px;
-
+$on-palm:          600px;
 
 
 // Use media queries like this:
@@ -39,6 +36,7 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;

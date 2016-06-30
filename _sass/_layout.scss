@@ -8,9 +8,10 @@ body{
 .site-header {
     // Positioning context for the mobile navigation icon
     position: relative;
-    margin: $spacing-unit*.2 auto;
     max-width: 1080px;
-    padding: 10px 20px 0 20px;
+    margin-top: $spacing-unit;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .site-title {
@@ -23,18 +24,16 @@ body{
     color: $brand-color;
     text-shadow: $text-shadow;
 
-    &,
     &:visited {
-        color: $brand-color;
+        color: $visiter-color;
     }
 }
 
 .site-nav {
-    line-height: 56px;
+    line-height: $spacing-unit*1.5;
     float: right;
     color: $brand-color;
     text-shadow: $text-shadow;
-    margin-right: -12px;
 
     .menu-icon {
         display: none;
@@ -46,7 +45,7 @@ body{
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 30px;
         }
     }
 
@@ -55,7 +54,7 @@ body{
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $brand-color;
         border-radius: 5px;
         text-align: right;
 
@@ -73,7 +72,7 @@ body{
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $brand-color;
                 }
             }
         }
@@ -113,7 +112,6 @@ body{
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
@@ -122,7 +120,7 @@ body{
 
 .footer-col-wrapper {
     font-size: 18px;
-    color: $grey-color;
+    color: $brand-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -177,31 +175,39 @@ body{
  */
 
 .page-content {
-
-}
-
-.title {
-    max-width: 900px;
+    max-width: $content-width;
     margin: auto;
-    font-size: 2.5em
-}
 
+    .wrapper{
+        margin-top: $spacing-unit*5;
+
+    }
+}
 .intro-span{
-    font-size: 30px;
-    text-align: center;
-    color: $brand-color;
-    padding: $spacing-unit*3;
-    padding-top: $spacing-unit*2;
-    margin: $spacing-unit*2;
-    font-weight: bold;
-    text-shadow: $text-shadow;
+    position: relative;
+    margin: $spacing-unit;
+    padding: $spacing-unit $spacing-unit*10;
+
+    .title {
+        max-width:$content-width;
+        font-size: $base-font-size*3;
+        text-align: center;
+        color: $brand-color;
+        font-weight: bold;
+        text-shadow: $text-shadow;
+    }
 }
 
 .page-heading {
-    text-align: center;
-    color: $brand-color;
-    padding: $spacing-unit*.7 $spacing-unit*2;
-    text-shadow: $text-shadow;
+    margin-top: $spacing-unit*5.5;
+    margin-bottom: $spacing-unit;
+
+    .page-heading-title{
+        color: $brand-color;
+        text-shadow: $text-shadow;
+        text-align: center;
+        margin: 0;
+    }
 }
 
 .project-container {
@@ -259,7 +265,7 @@ body{
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $brand-color;
 }
 
 .post-link {
