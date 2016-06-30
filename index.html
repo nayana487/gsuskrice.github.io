@@ -9,14 +9,14 @@ layout: default
 </div>
 <div class='project-container'>
     {% for project in site.data.projects %}
-        <a href='{{project.github}}'>
-            <div id='mario' class='project'>
+        <div class= 'project'>
+            <a href='{{project.github}}'>
                 <img class='project-img' src='{{project.img}}'>
                 <div class= 'flex-mask'>
                     <h3 class='show'>{{project.name}}</h3>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
     {% endfor %}
 </div>
 </div>

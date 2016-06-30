@@ -186,7 +186,7 @@ body{
 .intro-span{
     position: relative;
     margin: $spacing-unit;
-    padding: $spacing-unit $spacing-unit*10;
+    padding: $spacing-unit $spacing-unit*5;
 
     .title {
         max-width:$content-width;
@@ -211,7 +211,8 @@ body{
 }
 
 .project-container {
-    display: block;
+    display: inline-block;
+    margin-top: $spacing-unit;
 }
 
 .project{
