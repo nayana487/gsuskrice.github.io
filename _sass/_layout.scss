@@ -8,32 +8,37 @@ body{
 .site-header {
     // Positioning context for the mobile navigation icon
     position: relative;
+    margin-top: $spacing-unit*.2;
 }
 
 .site-title {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     position: relative;
+    color: $brand-color;
+    text-shadow: $text-shadow;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $brand-color;
     }
 }
 
 .site-nav {
     line-height: 56px;
     float: right;
+    color: $brand-color;
+    text-shadow: $text-shadow;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $brand-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -169,9 +174,22 @@ body{
 .page-content {
 }
 
-.page-heading {
-    font-size: 20px;
+.intro-span{
+    font-size: 30px;
     text-align: center;
+    color: $brand-color;
+    padding: $spacing-unit*3;
+    padding-top: $spacing-unit*2;
+    margin: $spacing-unit*2;
+    font-weight: bold;
+    text-shadow: $text-shadow;
+}
+
+.page-heading {
+    text-align: center;
+    color: $brand-color;
+    padding: $spacing-unit*.5 $spacing-unit;
+    text-shadow: $text-shadow;
 }
 
 .post-list {
@@ -240,11 +258,18 @@ body{
     }
 }
 
-.projects {
+
+
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project{
     float: left;
     border: $project-border;
     box-sizing: border-box;
-    margin: $spacing-unit/2;
     height: $spacing-unit*5;
-    width: $spacing-unit*7;
+    width: $spacing-unit*8;
 }
