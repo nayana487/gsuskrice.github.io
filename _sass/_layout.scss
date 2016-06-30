@@ -8,7 +8,10 @@ body{
 .site-header {
     // Positioning context for the mobile navigation icon
     position: relative;
-    margin-top: $spacing-unit*.2;
+    margin: $spacing-unit*.2 auto;
+    max-width: 1080px;
+    padding: 10px 20px 0 20px;
+
 }
 
 .site-title {
@@ -32,6 +35,7 @@ body{
     float: right;
     color: $brand-color;
     text-shadow: $text-shadow;
+    margin-right: -12px;
 
     .menu-icon {
         display: none;
@@ -97,12 +101,19 @@ body{
     }
 }
 
+.title {
+    max-width: 900px;
+    margin: auto;
+    font-size: 2.5em
+}
+
 
 
 /**
  * Site footer
  */
 .site-footer {
+    margin: $spacing-unit;
 
 }
 
@@ -115,10 +126,11 @@ body{
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    text-align: center;
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 18px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -126,8 +138,10 @@ body{
 
 .footer-col {
     float: left;
+    max-width: $spacing-unit*40;
+    margin: auto;
     margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-left: $spacing-unit*1.2;
 }
 
 .footer-col-1 {
@@ -188,7 +202,7 @@ body{
 .page-heading {
     text-align: center;
     color: $brand-color;
-    padding: $spacing-unit*.5 $spacing-unit;
+    padding: $spacing-unit*.7 $spacing-unit*2;
     text-shadow: $text-shadow;
 }
 
@@ -263,13 +277,21 @@ body{
 
 .project-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;;
     flex-wrap: wrap;
 }
+
 .project{
     float: left;
     border: $project-border;
     box-sizing: border-box;
     height: $spacing-unit*5;
-    width: $spacing-unit*8;
+    width: $spacing-unit*12;
+    overflow: hidden;
+
+}
+
+.project-img{
+    max-width: 100%;
+    max-height: auto;
 }

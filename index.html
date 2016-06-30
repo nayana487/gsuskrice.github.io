@@ -3,14 +3,15 @@ layout: default
 ---
 <div class="page-heading">
     <header class="intro-span">
-        <h1>Front-End on the Street Back-End in the Sheets</h1>
+        <h1 class="title">Front-End on the Street Back-End in the Sheets</h1>
     </header>
 </div>
 <div class="home">
     <h1 class="page-heading">Fork these cool projects and get coding!</h1>
     <div class='project-container'>
         {% for project in site.data.projects %}
-            <div class='project'>{{ project.name }}
+            <div class='project'>
+                <img class='project-img' src="{{project.img}}">
             </div>
         {% endfor %}
     </div>
