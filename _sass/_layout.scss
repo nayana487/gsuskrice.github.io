@@ -271,7 +271,8 @@ body{
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .post-title {
