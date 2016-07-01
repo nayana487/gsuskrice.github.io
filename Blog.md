@@ -3,9 +3,6 @@ layout: page
 title: Blog
 permalink: /random/
 ---
-
-This is a Tab that is a test for a blog and because I like 3+ menu items
-
 <ul class="post-list">
   {% for post in site.posts %}
     <li>

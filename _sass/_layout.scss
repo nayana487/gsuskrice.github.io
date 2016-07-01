@@ -179,14 +179,13 @@ body{
     margin: auto;
 
     .wrapper{
-        margin-top: $spacing-unit*3;
+        margin-top: $spacing-unit*4.8;
 
     }
 }
 .intro-span{
-    position: relative;
     margin: $spacing-unit;
-    padding: $spacing-unit $spacing-unit*5;
+    padding: $spacing-unit $spacing-unit*2.5;
 
     .title {
         max-width:$content-width;
@@ -199,7 +198,7 @@ body{
 }
 
 .page-heading {
-    margin-top: $spacing-unit*3.7;
+    margin-top: $spacing-unit*4;
     margin-bottom: $spacing-unit;
 
     .page-heading-title{
@@ -207,12 +206,12 @@ body{
         text-shadow: $text-shadow;
         text-align: center;
         margin: 0;
-        font-size: $base-font-size*1.2
+        font-size: $base-font-size*2
     }
 }
 
 .project-container {
-    margin-top: $spacing-unit;
+    margin-top: $spacing-unit*5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -248,7 +247,17 @@ body{
 .flex-mask:hover{
     opacity: 1;
 }
+.post-title{
+    color: $brand-color;
+    text-shadow: $text-shadow;
+}
 
+.post-content{
+    color: $brand-color;
+    text-shadow: $text-shadow;
+    max-width: 900px;
+    margin: 0 auto;
+}
 .post-list {
     margin-left: 0;
     list-style: none;
