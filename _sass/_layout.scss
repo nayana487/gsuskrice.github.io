@@ -213,20 +213,19 @@ body{
 
 .project-container {
     margin-top: $spacing-unit;
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .project{
-    max-width: 384px;
+    max-width: 33%;
     position: relative;
-    display: flex;
 }
 
 .project-img{
     max-width: 100%;
-    margin: auto;
     min-height: 100%;
 }
 
@@ -235,8 +234,8 @@ body{
 }
 
 .flex-mask {
-    width: 384px;
-    height: 164px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
