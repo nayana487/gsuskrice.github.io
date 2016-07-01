@@ -10,7 +10,7 @@ title: Did you commit today?
 email: cphillips918@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A place to practice website design, blog some things, and keep you up to date on projects you can use to make sure you're commiting everyday!
-baseurl: "/jekyll"
+baseurl: ""
 url: "http://gsuskrice.github.io"  # the base hostname & protocol for your site
 twitter_username: spiffcs
 github_username:  gsuskrice
