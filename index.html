@@ -10,11 +10,11 @@ layout: default
 <div class='project-container'>
     {% for project in site.data.projects %}
         <div class= 'project'>
+            <div class= 'flex-mask'>
+                <h3 class='show'>{{project.name}}</h3>
+            </div>
             <a href='{{project.github}}'>
                 <img class='project-img' src='{{project.img}}'>
-                <div class= 'flex-mask'>
-                    <h3 class='show'>{{project.name}}</h3>
-                </div>
             </a>
         </div>
     {% endfor %}

@@ -179,7 +179,7 @@ body{
     margin: auto;
 
     .wrapper{
-        margin-top: $spacing-unit*5;
+        margin-top: $spacing-unit*3;
 
     }
 }
@@ -199,7 +199,7 @@ body{
 }
 
 .page-heading {
-    margin-top: $spacing-unit*5.5;
+    margin-top: $spacing-unit*3.7;
     margin-bottom: $spacing-unit;
 
     .page-heading-title{
@@ -207,42 +207,37 @@ body{
         text-shadow: $text-shadow;
         text-align: center;
         margin: 0;
+        font-size: $base-font-size*1.2
     }
 }
 
 .project-container {
-    display: inline-block;
     margin-top: $spacing-unit;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project{
-    float: left;
-    border: $project-border;
-    box-sizing: border-box;
-    height: $spacing-unit*5;
-    width: $spacing-unit*12;
-    overflow: hidden;
+    max-width: 384px;
     position: relative;
+    display: flex;
+}
 
+.project-img{
+    max-width: 100%;
+    margin: auto;
+    min-height: 100%;
 }
 
 .project:hover{
     transform: scale(.97);
 }
 
-.project-img{
-    max-width: 100%;
-    max-height: auto;
-}
-.project-img:hover{
-
-}
-
 .flex-mask {
-    width: 100%;
-    height: 100%;
+    width: 384px;
+    height: 164px;
     position: absolute;
-    overflow: hidden;
     top: 0;
     left: 0;
     color: #f2f2f2;

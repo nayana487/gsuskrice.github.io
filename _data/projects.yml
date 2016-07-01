@@ -1,10 +1,10 @@
 - name: CSS3 Animations
   github: https://github.com/daneden/animate.css
-  img: http://16102-presscdn-0-48.pagely.netdna-cdn.com/wp-content/uploads/2014/12/css3_2.jpg
+  img: https://scotch.io/wp-content/uploads/2015/04/A-Vusial-Guide-to-CSS3-Flexbox-Layout-and-Properties.png
 
 - name: ES6
   github: https://github.com/bevacqua/es6
-  img: http://jamesknelson.com/wp-content/uploads/2015/07/ES6-the-bits-youll-actually-use.png
+  img: https://hsto.org/getpro/habr/post_images/2f6/a78/2ae/2f6a782aeb0190370d16ec265dc32aeb.png
 
 - name: Ruby on Rails
   github: https://github.com/rails/rails
